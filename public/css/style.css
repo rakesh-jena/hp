@@ -1349,13 +1349,13 @@ body > header .header-bottom .wrap {
 body > header .logo {
     background: url('../images/logo.svg') no-repeat top left;
     background-size: contain;
-    width: 295px;
+    width: 150px;
     height: 52px;
 }
 
 @media (max-width: 1070px) {
     body > header .logo {
-        width:260px;
+        width:150px;
     }
 }
 
@@ -1448,7 +1448,7 @@ body > header .btn-mobile-menu {
     }
 
     body > header .logo {
-        width: 210px;
+        width: 150px;
         height: 37px;
     }
 
@@ -2115,7 +2115,7 @@ body > footer .tagline-logo {
 body > footer .logo {
     background: url('../images/logo.svg') no-repeat top left;
     background-size: contain;
-    width: 295px;
+    width: 200px;
     height: 52px;
     display: block;
 }
@@ -7839,15 +7839,17 @@ body > header .header-bottom .wrap {
 }
 
 body > header .logo {
-    background: url('../images/logo.svg') no-repeat top left;
+    background: url('../public/assets/img/exaltnewlogo.svg') no-repeat top left;
     background-size: contain;
-    width: 295px;
+    width: 150px;
     height: 52px;
+    margin-top: 2rem;
 }
 
 @media (max-width: 1070px) {
     body > header .logo {
-        width:260px;
+        width:150px;
+        margin-top:1rem;
     }
 }
 
@@ -7940,7 +7942,7 @@ body > header .btn-mobile-menu {
     }
 
     body > header .logo {
-        width: 210px;
+        width: 150px;
         height: 37px;
     }
 
@@ -8605,7 +8607,7 @@ body > footer .tagline-logo {
 }
 
 body > footer .logo {
-    background: url('../images/logo.svg') no-repeat top left;
+    background: url('../public/assets/img/exaltnewlogo.svg') no-repeat top left;
     background-size: contain;
     width: 295px;
     height: 52px;
@@ -11764,7 +11766,7 @@ body.home-animation-complete .home-section-1.hero:not(.bg-img) {
 }
 
 .home-section-1.hero:not(.bg-img) .content h1 {
-    font-size: 120px;
+    font-size: 80px;
 }
 
 .home-section-1.hero:not(.bg-img) .content h1 div:first-child {
